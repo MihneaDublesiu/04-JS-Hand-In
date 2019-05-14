@@ -1,0 +1,4 @@
+// JSON Document
+const $ = require("jquery");
+
+$("#target").html("Hello world !");

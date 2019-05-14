@@ -1,0 +1,32 @@
+{
+  "name": "webpack-basic",
+  "version": "1.0.0",
+  "description": "webpack 4",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webpack",
+    "preprocessing"
+  ],
+  "author": "Ruff",
+  "license": "SSP",
+  "devDependencies": {
+    "webpack": "^4.31.0",
+    "webpack-cli": "^3.2.1"
+  },
+  "dependencies": {
+    "bash": "0.0.1",
+    "eslint": "^5.16.0",
+    "jquery": "^3.4.1",
+    "simplehttpserver": "^0.3.0"
+  },
+  "browser": {
+    "colors": false,
+    "events": "eventemitter3",
+    "checkForModuleDuplicates": false,
+    "url": "./shims/url",
+    "tracer": false
+  }
+}
